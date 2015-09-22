@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <RelativeLayout
+        android:id="@+id/rr_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/btn_tamil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Tamil"/>
+        <Button
+            android:id="@+id/btn_sinhala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/btn_tamil"
+            android:text="Sinhala"/>
+    </RelativeLayout>
+<RelativeLayout
+    android:id="@+id/rr_lang"
+    android:layout_below="@+id/rr_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="20dp">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_floating"/>
+    <TextView
+        android:id="@+id/txt_singhala"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="thanks"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/txt_tamil"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/txt_singhala"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:textSize="25sp"-->
+        <!--android:text="nandri"-->
+        <!--/>-->
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rr_lang1"
+        android:layout_below="@+id/rr_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ic_floating"/>
+        <TextView
+            android:id="@+id/txt_singhala1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text="welcome"/>
+
+        <!--<TextView-->
+        <!--android:id="@+id/txt_tamil"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/txt_singhala"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:textSize="25sp"-->
+        <!--android:text="nandri"-->
+        <!--/>-->
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rr_lang2"
+        android:layout_below="@+id/rr_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ic_floating"/>
+        <TextView
+            android:id="@+id/txt_singhala2"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img2"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text="God"/>
+
+        <!--<TextView-->
+        <!--android:id="@+id/txt_tamil"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/txt_singhala"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:textSize="25sp"-->
+        <!--android:text="nandri"-->
+        <!--/>-->
+    </RelativeLayout>
+</RelativeLayout>
